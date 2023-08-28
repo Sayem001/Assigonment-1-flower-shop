@@ -1,0 +1,43 @@
+/* common styles  */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-orange {
+    color: white;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px;
+    font-size: 20px;
+    border: 0;
+    font-weight: 700;
+}
+
+/* first section styles */
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 50px 240px 0 240px;
+}
+
+.intro img {
+    width: 400px;
+    height: 600px;
+}
+
+.intro-title {
+    font-size: 50px;
+}
+.left-intro{
+    margin: 10px 10px 80px 0;
+}
+.intro-description {
+    font-size: 15px;
+    padding-bottom: 10px;
+    max-width: 80%;
+}
+
+/* feature section is here  */
