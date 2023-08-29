@@ -146,9 +146,10 @@
 
 /* laatest deal section style start here  */
 .latest-deal-container{
-background-color: aqua;
+background-image: url("./FlowerAsset/Rectangle\ 9.png");
 margin: 60px 90px 60px 90px;
 padding: 60px;
+border-radius: 8px;
 text-align: center;
 }
 .latest-deal-container input{
@@ -165,4 +166,12 @@ text-align: center;
 }
 #subscribe-btn{
     margin-right: 105px;
+}
+
+/* footer style are here  */
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
