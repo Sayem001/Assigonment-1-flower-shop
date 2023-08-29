@@ -28,6 +28,29 @@
     padding: 15px 0 25px 0;
 }
 
+
+/* navbar style  */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(88, 171, 182, 0.301);
+    padding: 25px 0;
+}
+
+nav > h2{
+    font-size: 35px;
+    color: rgba(219, 26, 52, 0.685);
+}
+
+nav>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    color: rgba(23, 22, 27, 0.651);
+}
+
 /* first section styles */
 .intro {
     display: flex;
