@@ -1,17 +1,18 @@
 /* common styles  */
 * {
+    margin: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-.btn-orange {
+.btn-common-style {
     color: white;
     border-radius: 8px;
     background: #E55473;
     padding: 15px;
     font-size: 20px;
     border: 0;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .feature-title {
@@ -20,6 +21,11 @@
 
 .feature-description {
     font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.up-dawn-padding{
+    padding: 15px 0 25px 0;
 }
 
 /* first section styles */
@@ -48,6 +54,7 @@
     font-size: 15px;
     padding-bottom: 10px;
     max-width: 80%;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 /* feature section is here  */
@@ -75,18 +82,20 @@
     text-align: center;
 }
 
-#flower-1{
-    background: rgba(167, 33, 98, 0.15) ;
+#flower-1 {
+    background: rgba(167, 33, 98, 0.15);
 }
-#flower-2{
+
+#flower-2 {
     background: rgba(5, 151, 160, 0.15);
 }
-#flower-3{
+
+#flower-3 {
     background: rgba(71, 125, 17, 0.15);
 }
 
 /* optional part is here  */
-.optional-part{
+.optional-part {
     background: rgba(39, 39, 39, 0.05);
     margin: 130px;
     padding: 50px;
@@ -94,6 +103,66 @@
     justify-content: space-around;
     align-items: center;
 }
-.optional-container{
+
+.optional-container {
     text-align: center;
+}
+
+/* hot deal start here  */
+.hot-deal-container {
+    border-radius: 8px;
+    background: rgba(216, 95, 121, 0.144);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 200px 40px 200px;
+}
+.hot-deal-content{
+    text-align: center;
+}
+.hot-deal-title{
+    font-size: 40px;
+}
+.pink-span{
+    color: #E55473;
+}
+#hot-deal-description{
+    padding: 16px 0;
+}
+
+/* instagram section start here  */
+.instagram-container{
+    text-align: center;
+    margin: 100px;
+}
+.insta-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta-image-container img{
+    width: 300px;
+}
+
+/* laatest deal section style start here  */
+.latest-deal-container{
+background-color: aqua;
+margin: 60px 90px 60px 90px;
+padding: 60px;
+text-align: center;
+}
+.latest-deal-container input{
+    padding: 20px 700px 20px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-left: 100px;
+}
+.search-field{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#subscribe-btn{
+    margin-right: 105px;
 }
